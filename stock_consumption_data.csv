@@ -1,0 +1,419 @@
+product_id,product_name,day,stock_level,sold_today,is_profitable
+COUG001,Cough Syrup,1,80,1,0
+COUG001,Cough Syrup,2,79,10,1
+COUG001,Cough Syrup,3,69,8,1
+COUG001,Cough Syrup,4,61,1,0
+COUG001,Cough Syrup,5,60,2,0
+COUG001,Cough Syrup,6,58,10,1
+COUG001,Cough Syrup,7,48,4,0
+COUG001,Cough Syrup,8,44,1,0
+COUG001,Cough Syrup,9,43,7,1
+COUG001,Cough Syrup,10,36,7,1
+COUG001,Cough Syrup,11,29,5,1
+COUG001,Cough Syrup,12,24,8,1
+COUG001,Cough Syrup,13,16,1,0
+COUG001,Cough Syrup,14,15,9,1
+COUG001,Cough Syrup,15,6,6,1
+FACE001,Face Wash,1,78,3,0
+FACE001,Face Wash,2,75,3,0
+FACE001,Face Wash,3,72,6,1
+FACE001,Face Wash,4,66,3,0
+FACE001,Face Wash,5,63,3,0
+FACE001,Face Wash,6,60,10,1
+FACE001,Face Wash,7,50,3,0
+FACE001,Face Wash,8,47,1,0
+FACE001,Face Wash,9,46,0,0
+FACE001,Face Wash,10,46,10,1
+FACE001,Face Wash,11,36,0,0
+FACE001,Face Wash,12,36,2,0
+FACE001,Face Wash,13,34,6,1
+FACE001,Face Wash,14,28,6,1
+FACE001,Face Wash,15,22,10,1
+FACE001,Face Wash,16,12,3,0
+FACE001,Face Wash,17,9,7,1
+FACE001,Face Wash,18,2,1,0
+FACE001,Face Wash,19,1,1,0
+SUNS001,Sunscreen,1,93,2,0
+SUNS001,Sunscreen,2,91,1,0
+SUNS001,Sunscreen,3,90,8,1
+SUNS001,Sunscreen,4,82,1,0
+SUNS001,Sunscreen,5,81,10,1
+SUNS001,Sunscreen,6,71,6,1
+SUNS001,Sunscreen,7,65,3,0
+SUNS001,Sunscreen,8,62,3,0
+SUNS001,Sunscreen,9,59,7,1
+SUNS001,Sunscreen,10,52,0,0
+SUNS001,Sunscreen,11,52,4,0
+SUNS001,Sunscreen,12,48,8,1
+SUNS001,Sunscreen,13,40,2,0
+SUNS001,Sunscreen,14,38,0,0
+SUNS001,Sunscreen,15,38,2,0
+SUNS001,Sunscreen,16,36,1,0
+SUNS001,Sunscreen,17,35,4,0
+SUNS001,Sunscreen,18,31,5,1
+SUNS001,Sunscreen,19,26,6,1
+SUNS001,Sunscreen,20,20,9,1
+SHAM001,Shampoo,1,87,4,0
+SHAM001,Shampoo,2,83,5,1
+SHAM001,Shampoo,3,78,5,1
+SHAM001,Shampoo,4,73,1,0
+SHAM001,Shampoo,5,72,4,0
+SHAM001,Shampoo,6,68,3,0
+SHAM001,Shampoo,7,65,9,1
+SHAM001,Shampoo,8,56,6,1
+SHAM001,Shampoo,9,50,6,1
+SHAM001,Shampoo,10,44,9,1
+SHAM001,Shampoo,11,35,6,1
+SHAM001,Shampoo,12,29,0,0
+SHAM001,Shampoo,13,29,10,1
+SHAM001,Shampoo,14,19,2,0
+SHAM001,Shampoo,15,17,0,0
+SHAM001,Shampoo,16,17,0,0
+SHAM001,Shampoo,17,17,3,0
+SHAM001,Shampoo,18,14,1,0
+SHAM001,Shampoo,19,13,0,0
+SHAM001,Shampoo,20,13,4,0
+SMAR001,Smartphone,1,57,10,1
+SMAR001,Smartphone,2,47,7,1
+SMAR001,Smartphone,3,40,5,1
+SMAR001,Smartphone,4,35,5,1
+SMAR001,Smartphone,5,30,9,1
+SMAR001,Smartphone,6,21,8,1
+SMAR001,Smartphone,7,13,1,0
+SMAR001,Smartphone,8,12,0,0
+SMAR001,Smartphone,9,12,2,0
+SMAR001,Smartphone,10,10,9,1
+SMAR001,Smartphone,11,1,1,0
+ANTA001,Antacid,1,63,5,1
+ANTA001,Antacid,2,58,1,0
+ANTA001,Antacid,3,57,10,1
+ANTA001,Antacid,4,47,3,0
+ANTA001,Antacid,5,44,3,0
+ANTA001,Antacid,6,41,1,0
+ANTA001,Antacid,7,40,5,1
+ANTA001,Antacid,8,35,4,0
+ANTA001,Antacid,9,31,7,1
+ANTA001,Antacid,10,24,3,0
+ANTA001,Antacid,11,21,10,1
+ANTA001,Antacid,12,11,1,0
+ANTA001,Antacid,13,10,4,0
+ANTA001,Antacid,14,6,6,1
+PARA001,Paracetamol,1,68,2,0
+PARA001,Paracetamol,2,66,0,0
+PARA001,Paracetamol,3,66,9,1
+PARA001,Paracetamol,4,57,6,1
+PARA001,Paracetamol,5,51,1,0
+PARA001,Paracetamol,6,50,6,1
+PARA001,Paracetamol,7,44,2,0
+PARA001,Paracetamol,8,42,6,1
+PARA001,Paracetamol,9,36,2,0
+PARA001,Paracetamol,10,34,7,1
+PARA001,Paracetamol,11,27,4,0
+PARA001,Paracetamol,12,23,2,0
+PARA001,Paracetamol,13,21,7,1
+PARA001,Paracetamol,14,14,5,1
+PARA001,Paracetamol,15,9,7,1
+PARA001,Paracetamol,16,2,0,0
+PARA001,Paracetamol,17,2,0,0
+PARA001,Paracetamol,18,2,2,0
+PARA002,Paracetamol,1,53,7,1
+PARA002,Paracetamol,2,46,5,1
+PARA002,Paracetamol,3,41,7,1
+PARA002,Paracetamol,4,34,3,0
+PARA002,Paracetamol,5,31,0,0
+PARA002,Paracetamol,6,31,7,1
+PARA002,Paracetamol,7,24,2,0
+PARA002,Paracetamol,8,22,7,1
+PARA002,Paracetamol,9,15,8,1
+PARA002,Paracetamol,10,7,0,0
+PARA002,Paracetamol,11,7,7,1
+PARA003,Paracetamol,1,99,7,1
+PARA003,Paracetamol,2,92,5,1
+PARA003,Paracetamol,3,87,3,0
+PARA003,Paracetamol,4,84,0,0
+PARA003,Paracetamol,5,84,4,0
+PARA003,Paracetamol,6,80,7,1
+PARA003,Paracetamol,7,73,9,1
+PARA003,Paracetamol,8,64,8,1
+PARA003,Paracetamol,9,56,3,0
+PARA003,Paracetamol,10,53,5,1
+PARA003,Paracetamol,11,48,1,0
+PARA003,Paracetamol,12,47,6,1
+PARA003,Paracetamol,13,41,1,0
+PARA003,Paracetamol,14,40,3,0
+PARA003,Paracetamol,15,37,6,1
+PARA003,Paracetamol,16,31,6,1
+PARA003,Paracetamol,17,25,4,0
+PARA003,Paracetamol,18,21,1,0
+PARA003,Paracetamol,19,20,9,1
+PARA003,Paracetamol,20,11,0,0
+LAYS001,Lays Chips,1,59,9,1
+LAYS001,Lays Chips,2,50,5,1
+LAYS001,Lays Chips,3,45,3,0
+LAYS001,Lays Chips,4,42,4,0
+LAYS001,Lays Chips,5,38,2,0
+LAYS001,Lays Chips,6,36,6,1
+LAYS001,Lays Chips,7,30,9,1
+LAYS001,Lays Chips,8,21,10,1
+LAYS001,Lays Chips,9,11,0,0
+LAYS001,Lays Chips,10,11,6,1
+LAYS001,Lays Chips,11,5,5,1
+USBD001,USB Drive,1,70,2,0
+USBD001,USB Drive,2,68,9,1
+USBD001,USB Drive,3,59,10,1
+USBD001,USB Drive,4,49,8,1
+USBD001,USB Drive,5,41,3,0
+USBD001,USB Drive,6,38,4,0
+USBD001,USB Drive,7,34,9,1
+USBD001,USB Drive,8,25,4,0
+USBD001,USB Drive,9,21,8,1
+USBD001,USB Drive,10,13,9,1
+USBD001,USB Drive,11,4,0,0
+USBD001,USB Drive,12,4,3,0
+USBD001,USB Drive,13,1,1,0
+BLUE001,Bluetooth Speaker,1,79,2,0
+BLUE001,Bluetooth Speaker,2,77,8,1
+BLUE001,Bluetooth Speaker,3,69,8,1
+BLUE001,Bluetooth Speaker,4,61,1,0
+BLUE001,Bluetooth Speaker,5,60,10,1
+BLUE001,Bluetooth Speaker,6,50,7,1
+BLUE001,Bluetooth Speaker,7,43,9,1
+BLUE001,Bluetooth Speaker,8,34,7,1
+BLUE001,Bluetooth Speaker,9,27,6,1
+BLUE001,Bluetooth Speaker,10,21,10,1
+BLUE001,Bluetooth Speaker,11,11,5,1
+BLUE001,Bluetooth Speaker,12,6,0,0
+BLUE001,Bluetooth Speaker,13,6,6,1
+SUNS002,Sunscreen,1,81,0,0
+SUNS002,Sunscreen,2,81,4,0
+SUNS002,Sunscreen,3,77,1,0
+SUNS002,Sunscreen,4,76,7,1
+SUNS002,Sunscreen,5,69,2,0
+SUNS002,Sunscreen,6,67,8,1
+SUNS002,Sunscreen,7,59,0,0
+SUNS002,Sunscreen,8,59,8,1
+SUNS002,Sunscreen,9,51,8,1
+SUNS002,Sunscreen,10,43,2,0
+SUNS002,Sunscreen,11,41,6,1
+SUNS002,Sunscreen,12,35,8,1
+SUNS002,Sunscreen,13,27,5,1
+SUNS002,Sunscreen,14,22,10,1
+SUNS002,Sunscreen,15,12,6,1
+SUNS002,Sunscreen,16,6,0,0
+SUNS002,Sunscreen,17,6,6,1
+SUNS003,Sunscreen,1,54,0,0
+SUNS003,Sunscreen,2,54,1,0
+SUNS003,Sunscreen,3,53,5,1
+SUNS003,Sunscreen,4,48,1,0
+SUNS003,Sunscreen,5,47,9,1
+SUNS003,Sunscreen,6,38,8,1
+SUNS003,Sunscreen,7,30,5,1
+SUNS003,Sunscreen,8,25,10,1
+SUNS003,Sunscreen,9,15,4,0
+SUNS003,Sunscreen,10,11,7,1
+SUNS003,Sunscreen,11,4,4,0
+PARA004,Paracetamol,1,57,8,1
+PARA004,Paracetamol,2,49,2,0
+PARA004,Paracetamol,3,47,1,0
+PARA004,Paracetamol,4,46,3,0
+PARA004,Paracetamol,5,43,1,0
+PARA004,Paracetamol,6,42,1,0
+PARA004,Paracetamol,7,41,6,1
+PARA004,Paracetamol,8,35,4,0
+PARA004,Paracetamol,9,31,9,1
+PARA004,Paracetamol,10,22,5,1
+PARA004,Paracetamol,11,17,5,1
+PARA004,Paracetamol,12,12,6,1
+PARA004,Paracetamol,13,6,0,0
+PARA004,Paracetamol,14,6,2,0
+PARA004,Paracetamol,15,4,4,0
+PARA005,Paracetamol,1,75,3,0
+PARA005,Paracetamol,2,72,6,1
+PARA005,Paracetamol,3,66,2,0
+PARA005,Paracetamol,4,64,3,0
+PARA005,Paracetamol,5,61,9,1
+PARA005,Paracetamol,6,52,0,0
+PARA005,Paracetamol,7,52,6,1
+PARA005,Paracetamol,8,46,0,0
+PARA005,Paracetamol,9,46,9,1
+PARA005,Paracetamol,10,37,6,1
+PARA005,Paracetamol,11,31,10,1
+PARA005,Paracetamol,12,21,4,0
+PARA005,Paracetamol,13,17,6,1
+PARA005,Paracetamol,14,11,5,1
+PARA005,Paracetamol,15,6,1,0
+PARA005,Paracetamol,16,5,3,0
+PARA005,Paracetamol,17,2,2,0
+SHAM002,Shampoo,1,89,3,0
+SHAM002,Shampoo,2,86,8,1
+SHAM002,Shampoo,3,78,9,1
+SHAM002,Shampoo,4,69,6,1
+SHAM002,Shampoo,5,63,1,0
+SHAM002,Shampoo,6,62,5,1
+SHAM002,Shampoo,7,57,8,1
+SHAM002,Shampoo,8,49,2,0
+SHAM002,Shampoo,9,47,5,1
+SHAM002,Shampoo,10,42,1,0
+SHAM002,Shampoo,11,41,5,1
+SHAM002,Shampoo,12,36,0,0
+SHAM002,Shampoo,13,36,5,1
+SHAM002,Shampoo,14,31,6,1
+SHAM002,Shampoo,15,25,2,0
+SHAM002,Shampoo,16,23,9,1
+SHAM002,Shampoo,17,14,4,0
+SHAM002,Shampoo,18,10,4,0
+SHAM002,Shampoo,19,6,2,0
+SHAM002,Shampoo,20,4,2,0
+ANTA002,Antacid,1,54,8,1
+ANTA002,Antacid,2,46,9,1
+ANTA002,Antacid,3,37,2,0
+ANTA002,Antacid,4,35,5,1
+ANTA002,Antacid,5,30,10,1
+ANTA002,Antacid,6,20,1,0
+ANTA002,Antacid,7,19,10,1
+ANTA002,Antacid,8,9,5,1
+ANTA002,Antacid,9,4,0,0
+ANTA002,Antacid,10,4,1,0
+ANTA002,Antacid,11,3,3,0
+SHAM003,Shampoo,1,75,3,0
+SHAM003,Shampoo,2,72,4,0
+SHAM003,Shampoo,3,68,8,1
+SHAM003,Shampoo,4,60,2,0
+SHAM003,Shampoo,5,58,2,0
+SHAM003,Shampoo,6,56,7,1
+SHAM003,Shampoo,7,49,7,1
+SHAM003,Shampoo,8,42,4,0
+SHAM003,Shampoo,9,38,0,0
+SHAM003,Shampoo,10,38,1,0
+SHAM003,Shampoo,11,37,4,0
+SHAM003,Shampoo,12,33,10,1
+SHAM003,Shampoo,13,23,2,0
+SHAM003,Shampoo,14,21,8,1
+SHAM003,Shampoo,15,13,7,1
+SHAM003,Shampoo,16,6,0,0
+SHAM003,Shampoo,17,6,5,1
+SHAM003,Shampoo,18,1,0,0
+SHAM003,Shampoo,19,1,0,0
+SHAM003,Shampoo,20,1,0,0
+PARA006,Paracetamol,1,56,7,1
+PARA006,Paracetamol,2,49,10,1
+PARA006,Paracetamol,3,39,5,1
+PARA006,Paracetamol,4,34,5,1
+PARA006,Paracetamol,5,29,1,0
+PARA006,Paracetamol,6,28,8,1
+PARA006,Paracetamol,7,20,10,1
+PARA006,Paracetamol,8,10,2,0
+PARA006,Paracetamol,9,8,6,1
+PARA006,Paracetamol,10,2,2,0
+LAYS002,Lays Chips,1,54,9,1
+LAYS002,Lays Chips,2,45,8,1
+LAYS002,Lays Chips,3,37,8,1
+LAYS002,Lays Chips,4,29,7,1
+LAYS002,Lays Chips,5,22,7,1
+LAYS002,Lays Chips,6,15,7,1
+LAYS002,Lays Chips,7,8,1,0
+LAYS002,Lays Chips,8,7,6,1
+LAYS002,Lays Chips,9,1,0,0
+LAYS002,Lays Chips,10,1,0,0
+LAYS002,Lays Chips,11,1,1,0
+ANTA003,Antacid,1,100,5,1
+ANTA003,Antacid,2,95,2,0
+ANTA003,Antacid,3,93,6,1
+ANTA003,Antacid,4,87,9,1
+ANTA003,Antacid,5,78,8,1
+ANTA003,Antacid,6,70,5,1
+ANTA003,Antacid,7,65,2,0
+ANTA003,Antacid,8,63,9,1
+ANTA003,Antacid,9,54,4,0
+ANTA003,Antacid,10,50,4,0
+ANTA003,Antacid,11,46,9,1
+ANTA003,Antacid,12,37,3,0
+ANTA003,Antacid,13,34,6,1
+ANTA003,Antacid,14,28,7,1
+ANTA003,Antacid,15,21,9,1
+ANTA003,Antacid,16,12,3,0
+ANTA003,Antacid,17,9,0,0
+ANTA003,Antacid,18,9,6,1
+ANTA003,Antacid,19,3,0,0
+ANTA003,Antacid,20,3,0,0
+HEAD001,Headphones,1,74,10,1
+HEAD001,Headphones,2,64,6,1
+HEAD001,Headphones,3,58,3,0
+HEAD001,Headphones,4,55,4,0
+HEAD001,Headphones,5,51,0,0
+HEAD001,Headphones,6,51,3,0
+HEAD001,Headphones,7,48,9,1
+HEAD001,Headphones,8,39,6,1
+HEAD001,Headphones,9,33,10,1
+HEAD001,Headphones,10,23,5,1
+HEAD001,Headphones,11,18,8,1
+HEAD001,Headphones,12,10,1,0
+HEAD001,Headphones,13,9,1,0
+HEAD001,Headphones,14,8,5,1
+HEAD001,Headphones,15,3,3,0
+BLUE002,Bluetooth Speaker,1,59,4,0
+BLUE002,Bluetooth Speaker,2,55,7,1
+BLUE002,Bluetooth Speaker,3,48,4,0
+BLUE002,Bluetooth Speaker,4,44,5,1
+BLUE002,Bluetooth Speaker,5,39,9,1
+BLUE002,Bluetooth Speaker,6,30,6,1
+BLUE002,Bluetooth Speaker,7,24,10,1
+BLUE002,Bluetooth Speaker,8,14,3,0
+BLUE002,Bluetooth Speaker,9,11,10,1
+BLUE002,Bluetooth Speaker,10,1,1,0
+BLUE003,Bluetooth Speaker,1,98,7,1
+BLUE003,Bluetooth Speaker,2,91,7,1
+BLUE003,Bluetooth Speaker,3,84,1,0
+BLUE003,Bluetooth Speaker,4,83,7,1
+BLUE003,Bluetooth Speaker,5,76,7,1
+BLUE003,Bluetooth Speaker,6,69,5,1
+BLUE003,Bluetooth Speaker,7,64,8,1
+BLUE003,Bluetooth Speaker,8,56,4,0
+BLUE003,Bluetooth Speaker,9,52,0,0
+BLUE003,Bluetooth Speaker,10,52,5,1
+BLUE003,Bluetooth Speaker,11,47,8,1
+BLUE003,Bluetooth Speaker,12,39,2,0
+BLUE003,Bluetooth Speaker,13,37,7,1
+BLUE003,Bluetooth Speaker,14,30,8,1
+BLUE003,Bluetooth Speaker,15,22,6,1
+BLUE003,Bluetooth Speaker,16,16,2,0
+BLUE003,Bluetooth Speaker,17,14,10,1
+BLUE003,Bluetooth Speaker,18,4,4,0
+COUG002,Cough Syrup,1,81,0,0
+COUG002,Cough Syrup,2,81,1,0
+COUG002,Cough Syrup,3,80,3,0
+COUG002,Cough Syrup,4,77,7,1
+COUG002,Cough Syrup,5,70,8,1
+COUG002,Cough Syrup,6,62,2,0
+COUG002,Cough Syrup,7,60,4,0
+COUG002,Cough Syrup,8,56,5,1
+COUG002,Cough Syrup,9,51,6,1
+COUG002,Cough Syrup,10,45,6,1
+COUG002,Cough Syrup,11,39,8,1
+COUG002,Cough Syrup,12,31,10,1
+COUG002,Cough Syrup,13,21,6,1
+COUG002,Cough Syrup,14,15,6,1
+COUG002,Cough Syrup,15,9,1,0
+COUG002,Cough Syrup,16,8,4,0
+COUG002,Cough Syrup,17,4,1,0
+COUG002,Cough Syrup,18,3,0,0
+COUG002,Cough Syrup,19,3,2,0
+COUG002,Cough Syrup,20,1,1,0
+OREO001,Oreo Cookies,1,90,4,0
+OREO001,Oreo Cookies,2,86,4,0
+OREO001,Oreo Cookies,3,82,7,1
+OREO001,Oreo Cookies,4,75,9,1
+OREO001,Oreo Cookies,5,66,8,1
+OREO001,Oreo Cookies,6,58,6,1
+OREO001,Oreo Cookies,7,52,8,1
+OREO001,Oreo Cookies,8,44,0,0
+OREO001,Oreo Cookies,9,44,10,1
+OREO001,Oreo Cookies,10,34,9,1
+OREO001,Oreo Cookies,11,25,1,0
+OREO001,Oreo Cookies,12,24,8,1
+OREO001,Oreo Cookies,13,16,5,1
+OREO001,Oreo Cookies,14,11,4,0
+OREO001,Oreo Cookies,15,7,3,0
+OREO001,Oreo Cookies,16,4,2,0
+OREO001,Oreo Cookies,17,2,1,0
+OREO001,Oreo Cookies,18,1,1,0
